@@ -46,14 +46,30 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+.comtainer {
+  width: 1158px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 /* ==================header==================== */
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
-.header-nav-list {
+.header-container {
   display: flex;
+  align-items: center;
+  gap: 332px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 .header-logo {
   color: #4d5ae5;
@@ -66,6 +82,7 @@ ol {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  padding-left: 156px;
 }
 .header-logo-studio {
   color: #2e2f42;
@@ -76,6 +93,11 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-nav-item {
 }
 .header-nav-link {
@@ -90,7 +112,10 @@ ol {
 .header-nav-link:focus {
   color: #404bbf;
 }
-.header-address {
+.header-address-list {
+  display: flex;
+  gap: 40px;
+  padding-right: 156px;
 }
 .header-address-item {
 }
@@ -108,9 +133,11 @@ ol {
 .header-address-link:focus {
   color: #404bbf;
 }
+
 /* ==================header end============ */
 /* ===================hero================ */
 .hero {
+  padding-top: 0px;
 }
 .hero-container {
   background-color: #2e2f42;
@@ -149,8 +176,6 @@ ol {
 /* ================hero end============== */
 /* ================features================= */
 .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .features-subtitle {
   color: #2e2f42;
@@ -176,13 +201,13 @@ ol {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
 .team-list-item {
   background-color: #ffffff;
   padding-bottom: 32px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .team-list-photo {
   margin-bottom: 32px;
@@ -206,7 +231,6 @@ ol {
 /* ===================portfolio============== */
 
 .portfolio-item {
-  margin-bottom: 120px;
 }
 .portfolio-title {
   color: #2e2f42;
