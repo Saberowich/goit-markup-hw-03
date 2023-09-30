@@ -209,8 +209,6 @@ ol {
 .features-list {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .features-subtitle {
   color: #2e2f42;
@@ -247,14 +245,11 @@ ol {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .team-list-item {
   background-color: #ffffff;
   padding-bottom: 32px;
   border-bottom: 1px solid #e7e9fc;
-
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -297,8 +292,6 @@ ol {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .portfolio-list-container {
   padding: 32px 16px;
