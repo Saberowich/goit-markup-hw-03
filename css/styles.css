@@ -57,6 +57,12 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.team-list-photo,
+.porfolio-photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* ==================header==================== */
 .header {
